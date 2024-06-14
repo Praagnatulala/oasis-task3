@@ -1,0 +1,75 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #background {
+    background-image: url("https://media.istockphoto.com/id/1489338887/photo/natural-stone-wallpaper-with-speckles-templates-for-interior-design-and-hot-weather.webp?b=1&s=170667a&w=0&k=20&c=pv2yxKou5bXmusntNhdvlIp4f-A6yPUQecn73bxRz-8=");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+  
+  }
+  
+  .div1 {
+    background-color: rgb(42, 41, 42);
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    animation: colorChange 1s infinite;
+  }
+  
+  
+  
+  
+  
+  .div2 {
+    background-color: rgb(248, 100, 221);
+    padding: 40px;
+    border-radius: 10%; 
+    width: 100%;
+    box-sizing: border-box;
+    margin: 20px;
+  }
+  
+  h2 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #7965ea;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+ 
+  
